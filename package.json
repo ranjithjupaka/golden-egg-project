@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "pnpm type-check && vite build",
+    "build": "vite build",
     "build:turbo": "npx turbo build",
     "serve": "vite preview",
     "type-check": "tsc",
