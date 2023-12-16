@@ -1,4 +1,10 @@
+import { useContract, useContractRead } from '@thirdweb-dev/react'
+import { useEffect } from 'react'
+
 const Home = () => {
+  const { contract } = useContract('0x42571ca6E3994629061de9e645bB722d9131c4a6')
+  const { data, isLoading, error } = useContractRead(contract, 'name')
+
   return (
     <section className='text-white body-font'>
       <div className='container mx-auto flex px-5 md:flex-row flex-col items-center'>
@@ -16,7 +22,7 @@ const Home = () => {
           <div className='flex justify-center'>
             <a
               className='inline-flex text-white bg-yellow-300 border-yellow-500 border-1 py-2 px-6 focus:outline-none hover:bg-yellow-500 rounded text-lg'
-              href='/eggs'
+              href='/dragons'
             >
               BUY
             </a>

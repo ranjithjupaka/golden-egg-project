@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const Eggs = () => {
+const Dragons = () => {
   const connected = true
   return (
     <>
@@ -136,7 +136,7 @@ const Eggs = () => {
   )
 }
 
-export default Eggs
+export default Dragons
 
 {
   /* <div className='container mx-auto flex px-5 md:flex-row flex-col items-center'>
@@ -147,7 +147,7 @@ export default Eggs
               <img
                 className='object-cover object-center rounded'
                 alt='hero'
-                src='/assets/eggs.png'
+                src='/assets/dragons.png'
               />
             </div>
             <div className='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-start text-center'>

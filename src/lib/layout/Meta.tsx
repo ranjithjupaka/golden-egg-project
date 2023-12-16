@@ -1,11 +1,11 @@
 import { Helmet } from 'react-helmet';
 
-const APP_NAME = 'chickn egg'
+const APP_NAME = 'Eggs'
 
 const Meta = () => {
   return (
     <Helmet>
-      <title>Chickn Egg</title>
+      <title>Eggs</title>
       <meta name='description' content='Eggs' />
       <meta name='application-name' content={APP_NAME} />
       <meta name='apple-mobile-web-app-capable' content='yes' />

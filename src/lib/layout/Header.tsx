@@ -34,11 +34,11 @@ const Header = () => {
           </a>
           <a
             className={`mr-5 hover:text-gray-900 cursor-pointer ${
-              currentRoute == '/eggs' ? 'text-gray-900' : ''
+              currentRoute == '/dragons' ? 'text-gray-900' : ''
             }`}
-            href='/eggs'
+            href='/dragons'
           >
-            My Eggs
+            My Dragons
           </a>
           <a
             className={`mr-5 hover:text-gray-900 cursor-pointer ${
