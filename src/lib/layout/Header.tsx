@@ -1,9 +1,12 @@
 import { ThemeToggle } from '@/lib/components/theme-toggle';
+import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+import { ConnectWallet } from '@thirdweb-dev/react'
 
 const Header = () => {
   const location = useLocation()
   const currentRoute = location.pathname
+
   return (
     <header className='text-gray-600 body-font'>
       <div className='container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center'>
@@ -55,9 +58,14 @@ const Header = () => {
           </div>
           {/* <a className='mr-5 hover:text-gray-900 cursor-pointer'>Stakes</a> */}
         </nav>
-        <button className='bg-yellow-300 border-b-4 border-r-5  border-yellow-500 text-gray-900 px-4 py-2 transition-transform transform-gpu hover:scale-105 hover:border-l-5'>
+        {/* <button className='bg-yellow-300 border-b-4 border-r-5  border-yellow-500 text-gray-900 px-4 py-2 transition-transform transform-gpu hover:scale-105 hover:border-l-5'>
           Connect Wallet
-        </button>
+        </button> */}
+        <ConnectWallet
+          switchToActiveChain
+          modalSize='compact'
+          className='bg-yellow-300 border-b-4 border-r-5  border-yellow-500 text-gray-900 px-4 py-2 transition-transform transform-gpu hover:scale-105 hover:border-l-5'
+        />
       </div>
     </header>
   )
