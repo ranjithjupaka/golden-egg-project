@@ -24,14 +24,14 @@ const index = () => {
               <img
                 alt='gallery'
                 className='flex-shrink-0 rounded-lg w-full  object-cover object-center mb-4'
-                src='/assets/golden-egg.png'
+                src='/assets/dragon.png'
               />
               <div className='w-full h-full bg-white px-5 py-10 text-center'>
                 <h2 className='title-font font-medium text-2xl text-gray-900 mb-5'>
                   1 Dragon
                 </h2>
                 <h2 className='title-font font-medium text-2xl text-yellow-300 textstroke2'>
-                  10 Golden Eggs
+                  10 Eggs
                 </h2>
               </div>
             </div>
@@ -44,15 +44,15 @@ const index = () => {
               <img
                 alt='gallery'
                 className='flex-shrink-0 rounded-lg w-full  object-cover object-center mb-4'
-                src='/assets/golden-egg.png'
+                src='/assets/dragon.png'
               />
 
               <div className='w-full h-full bg-white px-5 py-10 text-center'>
                 <h2 className='title-font font-medium text-2xl text-gray-900 mb-5'>
-                  5 Dragon
+                  5 Dragons
                 </h2>
                 <h2 className='title-font font-medium text-2xl text-yellow-300 textstroke2'>
-                  50 Golden Eggs
+                  50 Eggs
                 </h2>
               </div>
             </div>
@@ -65,7 +65,7 @@ const index = () => {
               <img
                 alt='gallery'
                 className='flex-shrink-0 rounded-lg w-full  object-cover object-center mb-4'
-                src='/assets/golden-egg.png'
+                src='/assets/dragon.png'
               />
               <div className='w-full h-full bg-white px-5 py-10 text-center'>
                 <h2 className='title-font font-medium text-2xl text-gray-900 mb-5'>
@@ -85,7 +85,7 @@ const index = () => {
               <img
                 alt='gallery'
                 className='flex-shrink-0 rounded-lg w-full  object-cover object-center mb-4'
-                src='/assets/golden-egg.png'
+                src='/assets/dragon.png'
               />
               <div className='w-full h-full bg-white px-5 py-10 text-center'>
                 <h2 className='title-font font-medium text-2xl text-gray-900 mb-5'>

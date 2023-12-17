@@ -23,11 +23,11 @@ const Dragons = () => {
                       <img
                         alt='gallery'
                         className='absolute inset-0 w-full h-full object-cover object-center'
-                        src='/assets/golden-egg.png'
+                        src='/assets/dragon.png'
                       />
                       <div className='px-12 py-24 relative z-10 w-full bg-yellow-300 opacity-0 hover:opacity-100 border-2 border-white cursor-pointer'>
                         <h1 className='title-font text-lg font-medium text-white mb-3 text-center  '>
-                          Golden Eggs
+                          Dragons
                         </h1>
                       </div>
                     </div>
@@ -37,11 +37,11 @@ const Dragons = () => {
                       <img
                         alt='gallery'
                         className='absolute inset-0 w-full h-full object-cover object-center'
-                        src='/assets/golden-egg.png'
+                        src='/assets/dragon.png'
                       />
                       <div className='px-12 py-24 relative z-10 w-full bg-yellow-300 opacity-0 hover:opacity-100 border-2 border-white cursor-pointer'>
                         <h1 className='title-font text-lg font-medium text-white mb-3 text-center  '>
-                          Golden Eggs
+                          Dragons
                         </h1>
                       </div>
                     </div>
@@ -51,11 +51,11 @@ const Dragons = () => {
                       <img
                         alt='gallery'
                         className='absolute inset-0 w-full h-full object-cover object-center'
-                        src='/assets/golden-egg.png'
+                        src='/assets/dragon.png'
                       />
                       <div className='px-12 py-24 relative z-10 w-full bg-yellow-300 opacity-0 hover:opacity-100 border-2 border-white cursor-pointer'>
                         <h1 className='title-font text-lg font-medium text-white mb-3 text-center'>
-                          Golden Eggs
+                          Dragons
                         </h1>
                       </div>
                     </div>
@@ -65,11 +65,11 @@ const Dragons = () => {
                       <img
                         alt='gallery'
                         className='absolute inset-0 w-full h-full object-cover object-center'
-                        src='/assets/golden-egg.png'
+                        src='/assets/dragon.png'
                       />
                       <div className='px-12 py-24 relative z-10 w-full bg-yellow-300 opacity-0 hover:opacity-100 border-2 border-white cursor-pointer'>
                         <h1 className='title-font text-lg font-medium text-white mb-3 text-center  '>
-                          Golden Eggs
+                          Dragons
                         </h1>
                       </div>
                     </div>
@@ -79,11 +79,11 @@ const Dragons = () => {
                       <img
                         alt='gallery'
                         className='absolute inset-0 w-full h-full object-cover object-center'
-                        src='/assets/golden-egg.png'
+                        src='/assets/dragon.png'
                       />
                       <div className='px-12 py-24 relative z-10 w-full bg-yellow-300 opacity-0 hover:opacity-100 border-2 border-white cursor-pointer'>
                         <h1 className='title-font text-lg font-medium text-white mb-3 text-center  '>
-                          Golden Eggs
+                          Dragons
                         </h1>
                       </div>
                     </div>
@@ -93,11 +93,11 @@ const Dragons = () => {
                       <img
                         alt='gallery'
                         className='absolute inset-0 w-full h-full object-cover object-center'
-                        src='/assets/golden-egg.png'
+                        src='/assets/dragon.png'
                       />
                       <div className='px-12 py-24 relative z-10 w-full bg-yellow-300 opacity-0 hover:opacity-100 border-2 border-white cursor-pointer'>
                         <h1 className='title-font text-lg font-medium text-white mb-3 text-center  '>
-                          Golden Eggs
+                          Dragons
                         </h1>
                       </div>
                     </div>
@@ -106,20 +106,20 @@ const Dragons = () => {
               </div>
             </div>
             <div className='w-1/3 flex flex-col justify-center text-center'>
-              <h1 className='mb-8'>Reward Per Egg</h1>
+              <h1 className='mb-8 text-4xl'>Reward Per dragon</h1>
               <h1 className='text-3xl text-yellow-200 textstroke2'>
-                6 Golden Eggs / Day =
+                6 Dragons / Day =
               </h1>
               <h1 className='mb-5 text-3xl textstroke2'>1 USD</h1>
               <h1 className='mb-5 text-2xl'>Currently Earning</h1>
               <h1 className='mb-5 text-2xl textstroke2'>0.00 USD Per Day</h1>
               <h1 className='mb-5 text-3xl'>Your Rewards</h1>
               <h1 className='mb-5 text-3xl text-yellow-200 textstroke2'>
-                0 Golden Eggs =
+                0 Dragons =
               </h1>
               <h1 className='mb-8 text-3xl textstroke2'>0.00 USD</h1>
               <button className='bg-yellow-300 border-b-4 border-r-5 border-l-5 border-yellow-500 text-white px-4 py-2 transition-transform transform-gpu scale-115 hover:border-l-5 mb-5'>
-                Claim Golden Eggs
+                Claim Dragons
               </button>
               <button className='bg-yellow-300 border-b-4 border-r-5 border-l-5 border-yellow-500 text-white px-4 py-2 transition-transform transform-gpu scale-115 hover:border-l-5 mb-5'>
                 Compound
